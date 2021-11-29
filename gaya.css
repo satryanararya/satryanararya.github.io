@@ -1,0 +1,13 @@
+/*.kepala, .tubuh, .kaki {
+width:100px;
+height:25px;
+background:rgb(47, 211, 47);
+margin:0 auto;
+}
+
+.wajah, .badan, .bawah {
+    text-align:center;
+    color:white;
+}
+
+
