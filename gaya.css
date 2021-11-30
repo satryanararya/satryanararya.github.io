@@ -1,13 +1,10 @@
-/*.kepala, .tubuh, .kaki {
-width:100px;
-height:25px;
-background:rgb(47, 211, 47);
-margin:0 auto;
+.intro {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    background-color: #141414
 }
 
-.wajah, .badan, .bawah {
-    text-align:center;
-    color:white;
-}
+
 
 

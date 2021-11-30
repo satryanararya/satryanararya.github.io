@@ -1,94 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="gaya.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.1/font/bootstrap-icons.min.css"
-      rel="stylesheet"
-    />
-    <title>Challange Satrya</title>
-  </head>
-  <body>
-    <!-- Navbar : Satrya Nararya -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark py-3 fixed-sm-top">
-      <div class="container">
-        <a class="navbar-brand">Satrya Nararya👾</a>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Kuy!</button>
-        </form>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="gaya.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.1/font/bootstrap-icons.min.css"
+    rel="stylesheet" />
+  <title>Challange Satrya</title>
+</head>
+
+<body>
+  <!-- Navbar : Satrya Nararya -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">Satrya Nararya 👾</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Gallery">📸 Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Skills">🎓 Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">💻 Social Media</a>
+          </li>
+
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
+  <!-- akhir navbar -->
 
 
+  <!-- Intro -->
+  <div class="intro text text-center">
+    <img src="assets\images\muka.jpg" alt="tes" width="150" class="rounded-circle">
+    <h1 class="display-4 text-white"><strong>Satrya Nararya</strong></h1>
+    <p class="lead text-warning">IT Enthusiast</p>
+  </div>
+  <!-- akhir into -->
 
 
-
-
-
-
-
-
-    
-    <!-- Content Gambar Slide -->
-    <div
-      id="carouselExampleControls"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
+  <!-- Content Gambar Slide -->
+  <section class="bg-dark text-light" id="Gallery">
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner text-center" role="listbox">
         <div class="carousel-item active">
-          <img
-            src="assets/images/introaja.png"
-            class="d-block w-100"
-            alt="..."
-          />
+          <img class="img-fluid" src="assets/images/introaja.png" alt="1" />
         </div>
         <div class="carousel-item">
-          <img
-            src="assets/images/introlagi.png"
-            class="d-block w-100"
-            alt="..."
-          />
+          <img class="img-fluid" src="assets/images/introlagi.png" alt="2" />
         </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="prev"
-      >
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="next"
-      >
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+  </section>
+  <!-- akhir content gambar slide -->
 
-    <!-- Footer made by -->
-    <div class="alert alert-primary text-center" role="alert">
-      Made by Satrya Nararya
+
+  <!-- content lagi -->
+  <section id="Skills">
+    <div class="container-fluid" style=background-color:#141414>
+      <div class="row text-center">
+        <div class="col-md mb-4">
+          <h1 class="text-white">Skills 🎓 </h1>
+          <h6 class="text-warning">HTML | CSS | JAVASCRIPT</h6>
+        </div>
+      </div>
+
+
+      <!-- button HTML -->
+      <div class="row">
+        <div class="col-md-4 mb-4 ">
+          <div class="card text-white border-warning" style=background-color:#1d1d1d;>
+            <img src="assets/images/html.png" class="card-img-top" alt="HTML nich">
+            <div class="card-body text-center text-warning">
+              <p class="card-text text-center">
+              <h5><strong>HTML</strong></h5>
+              </p>
+
+              <!-- Button trigger modal -->
+              <div class="text-center">
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modalHTML">
+                  Apaan tu bang?
+                </button>
+              </div>
+
+              <!-- Modal -->
+              <div class="modal fade" id="modalHTML" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="staticBackdropLabel"><strong>HyperText Markup
+                          Language</strong></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-dark">
+                      <p>Ibaratnya penampilan udah burik + otak masih kosong melompong</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- end button HTML -->
+
+
+        <!-- button CSS -->
+        <div class="col-md-4 mb-4">
+          <div class="card text-white border-warning" style=background-color:#1d1d1d>
+            <img src="assets/images/css.png" class="card-img-top" alt="CSS nich">
+            <div class="card-body text-center text-warning">
+              <p class="card-text text-center">
+              <h5><strong>CSS</strong></h5>
+              </p>
+
+              <!-- Button trigger modal -->
+              <div class="text-center">
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modalCSS">
+                  Apaan tu bang?
+                </button>
+              </div>
+
+              <!-- Modal -->
+              <div class="modal fade" id="modalCSS" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="staticBackdropLabel"><strong>Cascading Style Sheets</strong>
+                      </h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-dark">
+                      Nah kalo udah ditambahin CSS mah, penampilannya udah mulai glow up tapi otaknya masih belum
+                      canggih
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end button CSS -->
+
+
+        <!-- button JAVASCRIPT -->
+        <div class="col-md-4 mb-4">
+          <div class="card text-white border-warning" style=background-color:#1d1d1d>
+            <img src="assets/images/js.png" class="card-img-top" alt="JAVASCRIPT nich">
+            <div class="card-body text-center text-warning">
+              <p class="card-text text-center">
+              <h5><strong>JAVASCRIPT</strong></h5>
+              </p>
+
+              <!-- Button trigger modal -->
+              <div class="text-center">
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modalJS">
+                  Apaan tu bang?
+                </button>
+              </div>
+
+              <!-- Modal -->
+              <div class="modal fade" id="modalJS" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="staticBackdropLabel"><strong>JAVASCRIPT</strong></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-dark">
+                      Waduhh, kalo udah ditambahin JS lagi, udah penampilan cakep + otak einstein lah pokoknya!
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end button JAVASCRIPT -->
+      </div>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+  </section>
+  <div class="container-fluid" style=background-color:#141414>
+    <div class="row text-center">
+      <div class="col-md mb-2">
+        <h6 class="text-white mb">Belum ada yang jago, tapi pasti berusaha ngulik terus! cheers 🍻</h6>
+        <!-- akhir content lagi -->
+
+
+
+        <!-- Footer made by -->
+        <div class="alert alert-dark text-center" role="alert">
+          Made by Satrya Nararya
+        </div>
+        <!-- akhir footer -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+          crossorigin="anonymous"></script>
+</body>
+
 </html>
