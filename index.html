@@ -14,10 +14,13 @@
 </head>
 
 <body>
-  <!-- Navbar : Satrya Nararya -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+  <!-- Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Satrya Nararya 👾</a>
+      <img src="assets/images/snfix.png" alt="" width="30" height="30">
+      <a class="navbar-brand" href="#"> Satrya Nararya
+      </a>
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -34,9 +37,8 @@
             <a class="nav-link" href="#Skills">🎓 Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">💻 Social Media</a>
+            <a class="nav-link" href="#SocialMedia">💻 Social Media</a>
           </li>
-
           </li>
         </ul>
       </div>
@@ -46,7 +48,7 @@
 
 
   <!-- Intro -->
-  <div class="intro text text-center">
+  <div class="intro text text-center mt-5">
     <img src="assets\images\muka.jpg" alt="tes" width="150" class="rounded-circle">
     <h1 class="display-4 text-white"><strong>Satrya Nararya</strong></h1>
     <p class="lead text-warning">IT Enthusiast</p>
@@ -54,8 +56,8 @@
   <!-- akhir into -->
 
 
-  <!-- Content Gambar Slide -->
-  <section class="bg-dark text-light" id="Gallery">
+  <!-- Content Caraousel -->
+  <section class=" text-light pb-2" style="background-color: #141414;" id="Gallery">
     <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
       <ol class="carousel-indicators">
         <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
@@ -79,28 +81,27 @@
       </button>
     </div>
   </section>
-  <!-- akhir content gambar slide -->
+  <!-- akhir content Carousel -->
 
 
-  <!-- content lagi -->
+  <!-- conent Card -->
   <section id="Skills">
     <div class="container-fluid" style=background-color:#141414>
       <div class="row text-center">
-        <div class="col-md mb-4">
-          <h1 class="text-white">Skills 🎓 </h1>
-          <h6 class="text-warning">HTML | CSS | JAVASCRIPT</h6>
+        <div class="col-md mb-4 mt-5 pt-5">
+          <h1 class="text-white">Skills 🎓</h1>
+          <h6 class="text-warning">JAVA | HTML | CSS | JAVASCRIPT</h6>
         </div>
       </div>
 
-
-      <!-- button HTML -->
+      <!-- Card Java -->
       <div class="row">
         <div class="col-md-4 mb-4 ">
           <div class="card text-white border-warning" style=background-color:#1d1d1d;>
-            <img src="assets/images/html.png" class="card-img-top" alt="HTML nich">
+            <img src="assets/images/java.png" class="card-img-top" alt="HTML nich">
             <div class="card-body text-center text-warning">
               <p class="card-text text-center">
-              <h5><strong>HTML</strong></h5>
+              <h5><strong>JAVA</strong></h5>
               </p>
 
               <!-- Button trigger modal -->
@@ -116,12 +117,17 @@
                 <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title text-dark" id="staticBackdropLabel"><strong>HyperText Markup
-                          Language</strong></h5>
+                      <h5 class="modal-title text-dark" id="staticBackdropLabel"><strong>JAVA
+                        </strong></h5>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body text-dark">
-                      <p>Ibaratnya penampilan udah burik + otak masih kosong melompong</p>
+                      <p>Java adalah bahasa pemrograman yang dapat dijalankan di komputer maupun smartphone.
+                        Bahasa ini dibuat pada tahun 1995 oleh James Gosling saat masih bergabung di Sun Microsystems.
+                        Java saat ini telah memiliki banyak rilisan, dan yang terbaru adalah Java SE 16.
+                        Aku pribadi mempelajari Java karena tuntutan dari Prodi Sistem Informasi di matkul Algoritma &
+                        Pemrograman.
+                      </p>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
@@ -129,20 +135,19 @@
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
-        <!-- end button HTML -->
+        <!-- akhir Card Java -->
 
 
-        <!-- button CSS -->
+        <!-- Card HTML CSS -->
         <div class="col-md-4 mb-4">
           <div class="card text-white border-warning" style=background-color:#1d1d1d>
-            <img src="assets/images/css.png" class="card-img-top" alt="CSS nich">
+            <img src="assets/images/gabung.png" class="card-img-top" alt="CSS nich">
             <div class="card-body text-center text-warning">
               <p class="card-text text-center">
-              <h5><strong>CSS</strong></h5>
+              <h5><strong>HTML & CSS</strong></h5>
               </p>
 
               <!-- Button trigger modal -->
@@ -158,13 +163,19 @@
                 <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title text-dark" id="staticBackdropLabel"><strong>Cascading Style Sheets</strong>
+                      <h5 class="modal-title text-dark" id="staticBackdropLabel"><strong>HTML & CSS</strong>
                       </h5>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body text-dark">
-                      Nah kalo udah ditambahin CSS mah, penampilannya udah mulai glow up tapi otaknya masih belum
-                      canggih
+                      <b><span class="text-danger">HTML</span></b> adalah kerangka yang membentuk dan mengatur bagaimana
+                      sebuah halaman web akan ditampilkan di browser. Untuk membentuk dan mengatur halaman tersebut kita
+                      menggunakan markah / tanda atau lebih umum disebut "tag". Ibaratnya HTML merupakan sebuah rumah
+                      namun belum terisi aksesoris yang cantik didalamnya.
+                      Oleh karena itu kita membutuhkan <b><span class="text-primary">CSS</span></b> untuk mengendalikan
+                      beberapa komponen dalam sebuah web sehingga tampilan akan lebih bagus dan terstruktur. Jika
+                      diibaratkan kembali, CSS seperti "dekorator" yang bertugas untuk mengisi rumah tadi dengan
+                      aksesoris yang bagus.
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
@@ -175,10 +186,10 @@
             </div>
           </div>
         </div>
-        <!-- end button CSS -->
+        <!-- akhir Card HTML CSS -->
 
 
-        <!-- button JAVASCRIPT -->
+        <!-- Card JAVASCRIPT -->
         <div class="col-md-4 mb-4">
           <div class="card text-white border-warning" style=background-color:#1d1d1d>
             <img src="assets/images/js.png" class="card-img-top" alt="JAVASCRIPT nich">
@@ -204,7 +215,12 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body text-dark">
-                      Waduhh, kalo udah ditambahin JS lagi, udah penampilan cakep + otak einstein lah pokoknya!
+                      JavaScript adalah bahasa pemrograman yang digunakan dalam pengembangan website agar lebih dinamis
+                      dan interaktif. Kalau sebelumnya sudah membahas HTML dan CSS, nah si JavaScript ini dapat
+                      meningkatkan fungsionalitas pada halaman web. Selain membuat web jadi lebih dinamis dan
+                      interaktif, JS digunakan juga untuk proses logika data.<span class="text-danger"> “Intinya, fungsi
+                        JS tidak hanya soal urusan front end, tapi juga sekaligus dipakai untuk urusan back end,” -Kang
+                        Dea Afrizal</span>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
@@ -215,27 +231,62 @@
             </div>
           </div>
         </div>
-        <!-- end button JAVASCRIPT -->
+        <!-- akhir Card JAVASCRIPT -->
       </div>
     </div>
-
   </section>
-  <div class="container-fluid" style=background-color:#141414>
+  <!-- akhir content Card -->
+
+
+  <!-- Footer -->
+  <footer class="container-fluid" style=background-color:#141414>
     <div class="row text-center">
-      <div class="col-md mb-2">
-        <h6 class="text-white mb">Belum ada yang jago, tapi pasti berusaha ngulik terus! cheers 🍻</h6>
-        <!-- akhir content lagi -->
-
-
-
-        <!-- Footer made by -->
-        <div class="alert alert-dark text-center" role="alert">
-          Made by Satrya Nararya
+      <div class="col-md mb-4 mt-3 pt-5">
+        <h2 class="text-white">Stay connected with me! 📲</h2>
+        <h6 class="text-warning">Kuy saling follow biar makin akrab cuy</h6>
+      </div>
+    </div>
+    <!-- kiri -->
+    <div class="container-fluid text-center text-md-start mt-3 mx-auto">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-2 ">
+          <h6 class="text-uppercase  mb-4 text-warning">
+            <b class="text-uppercase "></b>About -
+          </h6>
+          <p class="text-white">
+            Hahay thankyou bro udah nyempetin scroll sampe sini, website ini memang masih simple dan aku pun
+            belum jago, tapi pasti berusaha buat ngulik terus! cheers🍻
+          </p>
         </div>
-        <!-- akhir footer -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-          crossorigin="anonymous"></script>
+
+        <!-- kanan -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase text-warning fw-bold mb-4">Contact me - </h6>
+          <div class="col col-md-4 col-lg-4 col-xl-4">
+            <a class="link text-white bi bi-whatsapp mb-3" href="https://wa.wizard.id/afae87" target="_blank"><strong>
+                Whatsapp</strong></a>
+            <a class="link text-white bi bi-instagram mb-3" href="https://instagram.com/satryanararyaa/"
+              target="_blank"><strong> Instagram</strong></a>
+            <a class="link text-white bi bi-linkedin mb-3" href="https://www.linkedin.com/in/satrya-nararya/"
+              target="_blank"><strong> Linked-In_</strong></a>
+            <a class="link text-white bi bi-github mb-3" href="https://github.com/satryanararya/"
+              target="_blank"><strong> GitHub</strong></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir kiri kanan  -->
+
+    <!-- Created by -->
+    <div class="text-white text-center p-5" style="background-color:#141414">
+      <strong>Created by <span class="text-danger">Satrya Nararya</span></strong>
+    </div>
+    <!-- akhir created by -->
+  </footer>
+  <!-- akhir Footer -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
